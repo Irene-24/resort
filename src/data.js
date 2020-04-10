@@ -1,24 +1,24 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
-import img10 from "./images/room-10.jpeg";
-import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import room1 from "./assets/images/details-1.jpeg";
+import room2 from "./assets/images/details-2.jpeg";
+import room3 from "./assets/images/details-3.jpeg";
+import room4 from "./assets/images/details-4.jpeg";
+import img1 from "./assets/images/room-1.jpeg";
+import img2 from "./assets/images/room-2.jpeg";
+import img3 from "./assets/images/room-3.jpeg";
+import img4 from "./assets/images/room-4.jpeg";
+import img5 from "./assets/images/room-5.jpeg";
+import img6 from "./assets/images/room-6.jpeg";
+import img7 from "./assets/images/room-7.jpeg";
+import img8 from "./assets/images/room-8.jpeg";
+import img9 from "./assets/images/room-9.jpeg";
+import img10 from "./assets/images/room-10.jpeg";
+import img11 from "./assets/images/room-11.jpeg";
+import img12 from "./assets/images/room-12.jpeg";
 
 export default [
   {
     sys: {
-      id: "1"
+      id: "1",
     },
     fields: {
       name: "single economy",
@@ -39,43 +39,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img1
-            }
-          }
+              url: img1,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "2"
+      id: "2",
     },
     fields: {
       name: "single basic",
@@ -96,43 +100,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img2
-            }
-          }
+              url: img2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "3"
+      id: "3",
     },
     fields: {
       name: "single standard",
@@ -153,43 +161,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img3
-            }
-          }
+              url: img3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "4"
+      id: "4",
     },
     fields: {
       name: "single deluxe",
@@ -210,43 +222,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img4
-            }
-          }
+              url: img4,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "5"
+      id: "5",
     },
     fields: {
       name: "double economy",
@@ -267,43 +283,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img5
-            }
-          }
+              url: img5,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "6"
+      id: "6",
     },
     fields: {
       name: "double basic",
@@ -324,43 +344,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img6
-            }
-          }
+              url: img6,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "7"
+      id: "7",
     },
     fields: {
       name: "double standard",
@@ -381,43 +405,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img7
-            }
-          }
+              url: img7,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "8"
+      id: "8",
     },
     fields: {
       name: "double deluxe",
@@ -438,43 +466,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img8
-            }
-          }
+              url: img8,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "9"
+      id: "9",
     },
     fields: {
       name: "family economy",
@@ -495,43 +527,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img9
-            }
-          }
+              url: img9,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "10"
+      id: "10",
     },
     fields: {
       name: "family basic",
@@ -552,43 +588,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img10
-            }
-          }
+              url: img10,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "11"
+      id: "11",
     },
     fields: {
       name: "family standard",
@@ -609,43 +649,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img11
-            }
-          }
+              url: img11,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "12"
+      id: "12",
     },
     fields: {
       name: "family deluxe",
@@ -666,43 +710,47 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: img12
-            }
-          }
+              url: img12,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
+
   {
     sys: {
-      id: "13"
+      id: "13",
     },
     fields: {
       name: "presidential",
@@ -723,38 +771,41 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
       ],
       images: [
         {
           fields: {
             file: {
-              url: room1
-            }
-          }
+              url: room1,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
+
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
+  },
 ];
