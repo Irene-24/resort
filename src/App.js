@@ -1,6 +1,8 @@
 import React from 'react';
-import "./App.module.css";
+import { Switch,Route } from "react-router-dom";
+import "./App.css";
 
+import NavBar from "./components/NavBar";
 import Error from "./components/Error";
 import Rooms from "./components/Rooms";
 import Home from "./components/Home";
@@ -9,10 +11,13 @@ import SingleRoom from "./containers/SingleRoom";
 function App() {
   return (
   <React.Fragment>
-    <Home />
-    <Rooms />
-    <SingleRoom />
-    <Error />
+    <NavBar />
+    <Switch>
+     <Route exact path="/" component={Home} />
+     <Route exact path="/rooms" component={Rooms} />
+     <Route exact path="/rooms/:id" component={SingleRoom} />
+     <Route component={Error} />
+    </Switch>
   </React.Fragment>
   );
 }

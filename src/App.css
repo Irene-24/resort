@@ -152,8 +152,8 @@ h6
 
 .nav-links 
 {
-  height: 0;
-  overflow: hidden;
+  /* height: 0;
+  overflow: hidden; */
   transition: var(--mainTransition);
   list-style-type: none;
 }
