@@ -19,7 +19,6 @@ export default function RoomsContainer()
                     }
                     return (
                         <>
-                            container
                             <RoomsFilter rooms={rooms}/> <RoomsList rooms={sortedRooms}/>
                         </>
                     );
