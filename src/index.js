@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
 import { RoomProvider } from "./Context";
 import App from './App';
+import ScrollToTop from "./components/ScrollToTop";
 import * as serviceWorker from './serviceWorker';
 
 const app = (
   <RoomProvider>
     <Router>
+      <ScrollToTop />
       <App />
     </Router>
   </RoomProvider>
