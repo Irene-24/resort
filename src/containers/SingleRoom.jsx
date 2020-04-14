@@ -13,10 +13,6 @@ export default class SingleRoom extends Component
         id:this.props.match.params.id,
         defaultImg
     };
-    componentDidMount()
-    {
-        console.log(this.state);
-    }
     render() 
     {
         const {getRoom} = this.context;
