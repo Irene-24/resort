@@ -5,7 +5,7 @@ import Title from "./Title";
 //get all unique values
 function getUnique(items,value) 
 {
-    return [...new Set(items.map(item => item[value]) )];    
+    return [...new Set(items.map(item => item[value].toString().trim() ) )];    
 }
 
 
@@ -32,7 +32,7 @@ export default function RoomsFilter({rooms})
 
     types = types.map( (item,index) => <option key={index} value={item}>{item}</option>  );
 
-    guests = guests.map( (item,index) => <option key={index} value={item}>{item}</option>  ) ;
+    guests = guests.sort( (a,b) => a-b ).map( (item,index) => <option key={index} value={item}>{item}</option>  ) ;
 
     return (
         <section className="filter-container">
