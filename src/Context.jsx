@@ -1,5 +1,6 @@
 import React, { Component, createContext } from 'react';
-import items from "./data";
+import Client from "./contenful";
+// import items from "./data";
 
 const RoomContext = createContext();
 const RoomConsumer = RoomContext.Consumer;
@@ -25,23 +26,7 @@ class RoomProvider extends Component
 
     componentDidMount()
     {
-        let rooms = this.formatData(items);
-        let featuredRooms = rooms.filter( room => room.featured === true );
-        let maxPrice = Math.max(...rooms.map(item => item.price));
-        let minPrice = Math.min(...rooms.map(item => item.price));
-        let maxSize = Math.max(...rooms.map(item => item.size));
-        this.setState( 
-            {
-                rooms,
-                featuredRooms,
-                sortedRooms:rooms,
-                loading:false,
-                price:maxPrice,
-                maxPrice,
-                minPrice,
-                maxSize
-            }
-         );
+        this.getData();
     }
 
     formatData = data =>
@@ -54,6 +39,42 @@ class RoomProvider extends Component
                 return room;
             } );
         return formattedRooms
+    }
+
+    getData = async () => 
+    {
+        try 
+        {
+            let response =  await Client
+            .getEntries(
+                {
+                    content_type:"resort",
+                    order:"fields.name"
+                });
+
+            let rooms = this.formatData(response.items);
+            let featuredRooms = rooms.filter( room => room.featured === true );
+            let maxPrice = Math.max(...rooms.map(item => item.price));
+            let minPrice = Math.min(...rooms.map(item => item.price));
+            let maxSize = Math.max(...rooms.map(item => item.size));
+
+            this.setState( 
+                {
+                    rooms,
+                    featuredRooms,
+                    sortedRooms:rooms,
+                    loading:false,
+                    price:maxPrice,
+                    maxPrice,
+                    minPrice,
+                    maxSize
+                }
+            );
+        } 
+        catch (error) 
+        {
+            
+        }
     }
 
     getRoom = slug =>
@@ -85,8 +106,6 @@ class RoomProvider extends Component
             type,
             capacity,
             price,
-            minPrice,
-            maxPrice,
             minSize,
             maxSize,
             breakfast,

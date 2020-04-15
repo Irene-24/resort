@@ -39,8 +39,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -100,8 +99,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -161,8 +159,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -222,8 +219,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -283,8 +279,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -344,8 +339,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -405,8 +399,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -466,8 +459,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -527,8 +519,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -588,8 +579,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -649,8 +639,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -710,8 +699,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
@@ -771,8 +759,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds",
-      ],
+        "Comfortable beds"],
       images: [
         {
           fields: {
